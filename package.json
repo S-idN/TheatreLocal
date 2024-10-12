@@ -1,13 +1,12 @@
 
-{ "homepage": "https://s-idn.github.io/TheatreLocal/",
+{ 
+  "homepage": "https://s-idn.github.io/TheatreLocal/",
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start":"react-scripts start",
-    "scripts": { "build": "tsc" },
-    "predeply":"npm run build",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
