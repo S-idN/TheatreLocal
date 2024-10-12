@@ -25,7 +25,7 @@ export default function App() {
         <div id="slider" className="scrollbar-hide w-full h-full overflow-x-scroll overflow-y-hidden whitespace-nowrap scroll-smooth">
           {Clist.map((item)=> (
             <img className="w-[1080px] inline-block p-4 hover:scale-105 ease-in-out duration-500" 
-            src={item.image} 
+            src={import.meta.env.BASE_URL + item.image} 
             alt="cover images" />
           ))}
         </div>
