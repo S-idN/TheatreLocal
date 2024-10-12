@@ -17,17 +17,6 @@ export default function App() {
       slider.scrollLeft = slider.scrollLeft + 950
   }
 
-  const SlideSmallLeft = ()=>{
-    var slider = document.getElementById('SliderSmall')
-    slider.scrollLeft = slider.scrollLeft - 950
-  }
-
-
-  const SlideSmallRight = ()=>{
-    var slider = document.getElementById('SliderSmall')
-      slider.scrollLeft = slider.scrollLeft + 950
-  }
-
   return (
     <div className="bg-gradient-to-r from-red-950 via-indigo-950 to-neutral-800 z-0 flex flex-col justify-center">
       <Header/>
