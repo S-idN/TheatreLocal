@@ -1,4 +1,4 @@
-import logo from "/src/images/logo.png";
+import logo from "/images/logo.png";
 import NavLinks from "./NavLinksHeader";
 
 function Header() {
