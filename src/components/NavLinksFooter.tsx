@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 const url="https://github.com/S-idN/TheatreSite.git"
 
 function NavLinksFooter(){

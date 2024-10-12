@@ -5,13 +5,13 @@ function MainBody(){
 
     const SlideSmallLeft = ()=>{
         var slider = document.getElementById('SliderSmall')
-        slider.scrollLeft = slider.scrollLeft - 950
+        slider!.scrollLeft = slider!.scrollLeft - 950
       }
     
     
       const SlideSmallRight = ()=>{
         var slider = document.getElementById('SliderSmall')
-          slider.scrollLeft = slider.scrollLeft + 950
+          slider!.scrollLeft = slider!.scrollLeft + 950
       }
     
     return(

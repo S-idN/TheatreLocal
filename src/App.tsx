@@ -8,13 +8,13 @@ export default function App() {
 
   const SlideLeft = ()=>{
     var slider = document.getElementById('slider')
-    slider.scrollLeft = slider.scrollLeft - 950
+    slider!.scrollLeft = slider!.scrollLeft - 950
   }
 
 
   const SlideRight = ()=>{
     var slider = document.getElementById('slider')
-      slider.scrollLeft = slider.scrollLeft + 950
+      slider!.scrollLeft = slider!.scrollLeft + 950
   }
 
   return (
