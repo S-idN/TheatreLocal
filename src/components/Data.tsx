@@ -1,12 +1,12 @@
 export const Clist = [
     {
         id:0,
-        image:"/src/images/Scenery1.jpg",
+        image:"src/images/Scenery1.jpg",
         title:"Sheron",
     },
     {
         id:1,
-        image:"/src/images/Scenery2.jpg",
+        image:"src/images/Scenery2.jpg",
         title:"KettleMan",
     },
     {
